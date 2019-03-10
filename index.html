@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/javascript/gif.js"></script>
+
+    <title>U Get The GIF</title>
+</head>
+<body onload="setUp()">
+    <div class="header">
+        <h1>U Get The GIF!!</h1>
+        <div id="buttonDiv"></div>
+    </div>
+    <hr>
+    <div class="leftSideBar float">
+        <div id="placeHolder">
+            <div id="gifsDiv"></div>
+        </div>
+        <div id="moreButtonDiv"></div>
+    </div>
+
+  <div class="rightSideBar float">
+        
+        <form id="movie-form">
+            <label for="charName"><span class="text">Add Animal</span></label><br>
+            <input type="text" class="text" id="charName" placeholder="Enter More Animals"><br>
+            <input class="subReset hover" id="find-char" type="submit" value="Submit">
+            <input class="subReset hover" id="resetArray" type="submit" value="Reset">
+        </form>
+        </div>
+</body>
+</html>
